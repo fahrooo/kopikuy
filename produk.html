@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap-icons.css" />
     <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
     <style>
       section {
         min-height: 90vh;
@@ -23,7 +24,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg bg-danger navbar-dark w-100 fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark w-100 fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img class="logo" src="images/logo/logo_kuy.png" height="40" />
@@ -75,13 +76,15 @@
         <p class="fs-4">
           Kualitas terbaik biji kopi pilihan, Fresh diambil langsung dari petani
         </p>
-        <hr class="border border-danger border-3 opacity-75" />
+        <hr class="border border-success border-3 opacity-75" />
 
         <div class="form-floating col-md-4 mx-auto my-5">
           <select class="form-select" id="select_kopi">
             <option selected disabled>-</option>
             <option value="arabica">Arabica</option>
             <option value="robusta">Robusta</option>
+            <option value="liberica">Liberica</option>
+            <option value="excelsa">Excelsa</option>
           </select>
 
           <label for="select_kopi">Pilih Jenis Kopi</label>
@@ -94,7 +97,7 @@
       </div>
     </section>
 
-    <footer class="bg-danger py-4">
+    <footer class="py-4">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-8">
@@ -138,7 +141,7 @@
 
     <script>
       var sumber = "https://rikikurnia.com/prakerja/api/kopi";
-      var sumber2 = "data.json";
+      var sumber2 = "data.json?1";
 
       select_kopi.onchange = function () {
         var dipilih = this.value;
@@ -166,7 +169,7 @@
                                             ${item.harga}
                                         </div>
                                     </div>
-                                    <a href="${item.link}" class="btn btn-danger w-100"><i class="bi bi-cart4"></i> Beli</a>
+                                    <a href="${item.link}" class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
                                 </div>
                             </div>
                         </div>`;

@@ -20,6 +20,20 @@
             "size": "150 Gram",
             "harga": "150.000",
             "link": "https://www.google.com/search?q=latte+arabica&tbm=shop"
+        },
+        {
+            "foto": "https://sehablacafe.com/wp-content/uploads/2021/05/americano-coffee.jpg",
+            "nama": "Americano Arabica",
+            "size": "200 Gram",
+            "harga": "120.000",
+            "link": "https://www.google.com/search?q=americano+arabica&tbm=shop"
+        },
+        {
+            "foto": "https://api.time.com/wp-content/uploads/2016/01/latte-macchiato-starbucks.jpg",
+            "nama": "Macchiato Arabica",
+            "size": "120 Gram",
+            "harga": "180.000",
+            "link": "https://www.google.com/search?q=macchiato+arabica&tbm=shop"
         }
     ],
     "robusta": [
@@ -36,6 +50,87 @@
             "size": "150 Gram",
             "harga": "150.000",
             "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
+        },
+        {
+            "foto": "images/produk/product_espresso.jpg",
+            "nama": "Espresso Robusta",
+            "size": "100 Gram",
+            "harga": "90.000",
+            "link": "https://www.google.com/search?q=espresso+robusta&tbm=shop"
+        },
+        {
+            "foto": "https://www.liquidline.co.uk/wp-content/uploads/2019/06/pouring-cold-brew-coffee-W6S3VHD-scaled.jpg",
+            "nama": "Cold Brew Robusta",
+            "size": "250 Gram",
+            "harga": "200.000",
+            "link": "https://www.google.com/search?q=cold+brew+robusta&tbm=shop"
+        },
+        {
+            "foto": "https://cdn.shopify.com/s/files/1/0506/1922/0131/files/PQIS-Coffee_480x480.png?v=1675430349",
+            "nama": "Mocha Robusta",
+            "size": "180 Gram",
+            "harga": "220.000",
+            "link": "https://www.google.com/search?q=mocha+robusta&tbm=shop"
+        }
+    ],
+    "liberica": [
+        {
+            "foto": "https://crosslakecoffee.com/wp-content/uploads/2023/12/How-Much-Caffeine-In-Iced-Coffee-3.png",
+            "nama": "Kopsus Liberica",
+            "size": "100 Gram",
+            "harga": "400.000",
+            "link": "https://www.google.com/search?q=kopi+susu+liberica&tbm=shop"
+        },
+        {
+            "foto": "https://img.freepik.com/free-photo/coffee-shop-cafe-latte-cappuccino-newspaper-concept_53876-42953.jpg?size=338&ext=jpg",
+            "nama": "Latte Liberica",
+            "size": "150 Gram",
+            "harga": "200.000",
+            "link": "https://www.google.com/search?q=latte+liberica&tbm=shop"
+        },
+        {
+            "foto": "https://th.bing.com/th/id/OIP.21-c_Ee3cvGH1Z1ge6woygHaE-?rs=1&pid=ImgDetMain",
+            "nama": "Espresso Liberica",
+            "size": "100 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=espresso+liberica&tbm=shop"
+        },
+        {
+            "foto": "https://th.bing.com/th/id/OIP.ZkpYkERyG5cH0kDaaebt0AHaJQ?w=800&h=1000&rs=1&pid=ImgDetMain",
+            "nama": "Cold Brew Liberica",
+            "size": "250 Gram",
+            "harga": "300.000",
+            "link": "https://www.google.com/search?q=cold+brew+liberica&tbm=shop"
+        },
+        {
+            "foto": "https://th.bing.com/th/id/OIP.uPvy7p8-4CSl-lq-p_uqqAHaLH?w=600&h=900&rs=1&pid=ImgDetMain",
+            "nama": "Americano Liberica",
+            "size": "200 Gram",
+            "harga": "180.000",
+            "link": "https://www.google.com/search?q=americano+liberica&tbm=shop"
+        }
+    ],
+    "excelsa": [
+        {
+            "foto": "https://ecs7.tokopedia.net/img/cache/700/product-1/2020/6/12/1983950/1983950_24b5d37a-80b9-481d-8044-410573e30ae4_1600_1600",
+            "nama": "Kopsus Excelsa",
+            "size": "100 Gram",
+            "harga": "350.000",
+            "link": "https://www.google.com/search?q=kopi+susu+excelsa&tbm=shop"
+        },
+        {
+            "foto": "https://th.bing.com/th/id/OIP.izTHf_6NnicCdq5v2Uaq0AHaLH?rs=1&pid=ImgDetMain",
+            "nama": "Latte Excelsa",
+            "size": "150 Gram",
+            "harga": "250.000",
+            "link": "https://www.google.com/search?q=latte+excelsa&tbm=shop"
+        },
+        {
+            "foto": "https://thumbs.dreamstime.com/b/coffee-breakfast-cafe-culture-two-small-cups-cappuccino-picture-coffee-breakfast-cafe-culture-two-small-cups-131566225.jpg",
+            "nama": "Espresso Excelsa",
+            "size": "100 Gram",
+            "harga": "200.000",
+            "link": "https://www.google.com/search?q=espresso+excelsa&tbm=shop"
         }
     ]
 }

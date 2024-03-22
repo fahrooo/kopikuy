@@ -43,7 +43,9 @@ footer {
    flex-wrap: wrap;
 }
 
-
+bg-bluebuk {
+   background-color: #116E72;
+}
 
 /* 
 Kode @font-face untuk menginstall font ke dalam Website 
@@ -135,7 +137,7 @@ nav {
    untuk pengguna vscode silahkan arahkan mouse ke kotak warna di bawah
    untuk mengganti warna sesuai keinginan
    */
-   background-color: #198754;
+   background-color: #116E72;
 
    /* box-shadow membuat efek bayangan */
    box-shadow: 0 3px 7px -2px #000;
@@ -518,7 +520,7 @@ div.kontak {
 /* FOOTER */
 
 footer {
-   background-color: #198754;
+   background-color: #116E72;
    padding-top: 15px;
    padding-bottom: 15px;
    color: #fff;
@@ -535,8 +537,39 @@ footer div.navigasi a {
    padding: 8px;
 }
 
-/* UNTUK kode RESPONSIF hari ke 3 tulis DI BAWAH sini */
 
+/* UNTUK kode RESPONSIF hari ke 3 tulis DI BAWAH sini */
+@media (max-width:768px) {
+   div.navigasi {
+      display: none
+   }
+
+   a.shop {
+      margin-right: 20px;
+   }
+
+   img.logo {
+      margin-right: auto;
+   }
+
+   header div.kiri,
+   header div.kanan {
+      padding: 20px;
+      text-align: center;
+      width: 100%;
+   }
+
+   div.produk,
+   div.team,
+   div.kontak {
+      width: 50%;
+   }
+
+   div.testimoni {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+}
 
 
 /* Kode CSS Selesai di sini */
